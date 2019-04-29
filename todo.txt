@@ -1,0 +1,15 @@
+TODO :
+Ajout du correcteur proprement dit
+Decoupage du fichier
+Commencer + importer fichiers latex du rapport
+Faire le Readme avec les instruction pour generer le rapport avec pdflatex
+Interface du main
+Recuperer code de Seb
+Faire le makefile
+
+
+Features:
+Detection de la langue (suivant le nombre de mot du texte dans le dico sur un echantillon ~100)
+Choix de la langue / Utilisation de multiples dicos
+Benchmark?
+Ajout fichiers de tests
