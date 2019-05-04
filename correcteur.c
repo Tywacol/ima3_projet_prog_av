@@ -153,4 +153,3 @@ void print_erreurs(FILE *fp, int *malorthographies, int *mots)
         }
     }
 }
-
