@@ -3,7 +3,7 @@
 Ce programme implémente un correcteur orthographique minimaliste écrit en C dans le cadre du cours de Programmation Avancée de Mr. [Rudametkin](https://rudametw.github.io/) d'IMA3 à Polytech'Lille. 
 Auteurs : Sébastien Dardenne et Corto Callerisa
 
-![](https://github.c0.png?raw=true)
+![](img/lancement.png)
 
 ## Principe
 
@@ -40,9 +40,15 @@ Le programme renvoie l'ensemble des mots malorthographiés sur le terminal.
 
 ### Benchmark
 
+![](img/benchmark.png)
+
 ### Warnings
 
+![](img/compilation.png)
+
 ### Gestion mémoire
+
+![](img/valgrind.png)
 
 ## Auteurs
 
