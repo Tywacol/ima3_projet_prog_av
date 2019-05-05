@@ -1,30 +1,17 @@
-# Correcteur 
+# Projet Programmation Avancée : Correcteur Orthographique 
 
-Java project made during my second semester at the EPFL, Switzerland. This program renders images from OpenStreetMap and height maps data.
-
-Example : HD Map of interlaken made using this program :
+Ce programme implémente un correcteur orthographique minimaliste écrit en C dans le cadre du cours de Programmation Avancée de Mr. [Rudametkin](https://rudametw.github.io/) d'IMA3 à Polytech'Lille. 
+Auteurs : Sébastien Dardenne et Corto Callerisa
 
 ![](https://github.com/Tywacol/EPFL_imhof/blob/master/examples_files/interlaken/interlakenhighHD300.png?raw=true)
 
-## How it works
+## Principe
 
-The programs parses a compressed .osm file containing the maps elements (roads, building, lakes etc) so that its easily usable after. 2D map example from example_files/interlaken/interlaken.osm.gz :
+Le programme importe un dictionnaire depuis un fichier texte passé en paramètre et s'en sert pour détecter les mots mal orthographié d'un texte donné.
 
-![](https://github.com/Tywacol/EPFL_imhof/blob/master/examples_files/interlaken/paintedMap.png?raw=true)
+## Prérequis
 
-It then create an height map using the data from the corresponding hgt file passed on argument. height map example from example_files/interlaken/N46E007.hgt :
-
-![](https://github.com/Tywacol/EPFL_imhof/blob/master/examples_files/interlaken/relief.png?raw=true)
-
-It then mixes the two files to produce a map with relief, as seen in the presentation.
-
-## Prequisite
-
-This project require Oracle JDK8 or newer to be compiled.
-On Arch-based systems it can be installed by running
-```bash
-pacman -Syu jdk8-openjdk
-```
+Un ordinateur permettant de compiler en programme C ainsi qu'environ 10mo d'espace libre. La majorité de la mémoire étant occupé par les fichiers de tests, l'éxecutable faisant environ 23Ko.
 
 ## Installation
 
