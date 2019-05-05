@@ -1,6 +1,6 @@
 # Projet Programmation Avancée : Correcteur Orthographique 
 
-Ce programme implémente un correcteur orthographique minimaliste écrit en C dans le cadre du cours de Programmation Avancée de Mr. [Rudametkin](https://rudametw.github.io/) d'IMA3 à Polytech'Lille. 
+Ce programme implémente un correcteur orthographique minimaliste écrit en C dans le cadre du cours de Programmation Avancée de Mr. [Rudametkin](https://rudametw.github.io/) en IMA3 à Polytech'Lille. 
 
 ![](img/lancement.png)
 
