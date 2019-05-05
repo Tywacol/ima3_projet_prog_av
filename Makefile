@@ -7,7 +7,7 @@ CC = clang
 # "drapeau" en paramètres
 # ajouter "-O0" si besoin d'utiliser valgrind
 # -ggdb3 pour les information de debugging
-CFLAGS = -ggdb3 -O0 -Wall -Werror
+CFLAGS = -ggdb3 -Wall -Werror
 
 # Nom de l'executable
 EXE = correcteur
