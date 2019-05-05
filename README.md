@@ -1,7 +1,6 @@
 # Projet Programmation Avancée : Correcteur Orthographique 
 
 Ce programme implémente un correcteur orthographique minimaliste écrit en C dans le cadre du cours de Programmation Avancée de Mr. [Rudametkin](https://rudametw.github.io/) d'IMA3 à Polytech'Lille. 
-Auteurs : Sébastien Dardenne et Corto Callerisa
 
 ![](img/lancement.png)
 
@@ -59,5 +58,6 @@ Pour le développeur le programme est commenté intégralement.
 
 ## Auteurs
 
-Sébastien Dardenne<br>
+Sébastien Dardenne
+
 Corto Callerisa
