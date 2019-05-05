@@ -1,2 +1,0 @@
-verifier le correcteur avec le texte d'exemple
-Verifier l'orthographe
