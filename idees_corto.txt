@@ -1,3 +1,0 @@
-Ajout d'une inteface graphique?
-Chercher le dictionnaire directement sur un lien avec wget ou curl?
-Envoie des resultats sur une page web basique?
