@@ -15,7 +15,7 @@
 #include "dictionnaire.h"
 
 // Choix du dictionnaire par default
-#define DICTIONNAIRE_DEF "words"
+#define DICTIONNAIRE_DEF "dictionnaires/words"
 
 int main(int argc, char* argv[])
 {
