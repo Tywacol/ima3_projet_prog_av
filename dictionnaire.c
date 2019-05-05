@@ -118,7 +118,7 @@ bool importer_dict(const char *nom_dic)
     Noeud *prochain_noeud_vide = reserve_noeuds;
 
     // On transfère le fichier depuis un stream dans un tableau
-    char *buffer = malloc(taille_fic); // +1 pour le caractere de terminaison
+    char *buffer = malloc(taille_fic+1); // +1 pour le caractere de terminaison
     fread(buffer, 1, taille_fic, dict);
 
     // Marque la fin du fichier
