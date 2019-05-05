@@ -15,7 +15,7 @@ Un ordinateur permettant de compiler en programme C ainsi qu'environ 10mo d'espa
 
 ## Installation
 
-Le projet peut être cloner par la commande
+Le projet peut être cloné par la commande
 ```bash
 git clone git@archives.plil.fr:ccalleri/ima3_projet_pa_2019.git
 ```
@@ -36,21 +36,28 @@ fichier_dictionnaire : le fichier texte contenant l'ensembles des mots du dictio
 texte : texte à vérifier.
 
 Le programme renvoie l'ensemble des mots malorthographiés sur le terminal.
-## Extras : Benchmark, warnings et gestion mémoire. 
 
-### Benchmark
+## Ergonomie
+
+Un dictionnaire anglais "words" de plus 143 000 mots est présent dans le dossier //dictionnaires.
+Un texte d'essai "sherlock_extract" (5l lignes) ainsi qu'un roman complet  "sherlock_full.txt" (13051 lignes) sont présent dans le dossier ./textes.
+
+L'utilisation du programme est simple et les résultat clairs pour l'utilisateur.
+Pour le développeur le programme est commenté intégralement.
+
+## Benchmark
 
 ![](img/benchmark.png)
 
-### Warnings
+## Warnings
 
 ![](img/compilation.png)
 
-### Gestion mémoire
+## Gestion mémoire
 
 ![](img/valgrind.png)
 
 ## Auteurs
 
-Sébastien Dardenne
+Sébastien Dardenne<br>
 Corto Callerisa
